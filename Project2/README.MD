@@ -9,23 +9,23 @@ The data folder contains the orignial data set training.json, development.json a
 Results of prediction answers were stored in result folder.
 
 
-folder trees should be like:
-proj3:
-	src
-		./proj3_p2_v1.1.py
-	data
-		training.json
-		development.json
-		testing.json
-		dev_coreNLP.json
-		test_coreNLP.json
-	result 
-		submission.csv
+folder trees should be like:   
+proj3:    
+	src  
+		./proj3_p2_v1.1.py   
+	data   
+		training.json   
+		development.json   
+		testing.json  
+		dev_coreNLP.json  
+		test_coreNLP.json   
+	result   
+		submission.csv   
+   
+Run:   
+	python ./src/proj3_p2_v1.1.py   
 
-Run:
-	python ./src/proj3_p2_v1.1.py
 
-
-Keep load_word.py in the same folder
-Run: 
-lstm_ptr.py
+Keep load_word.py in the same folder   
+Run:   
+lstm_ptr.py   
