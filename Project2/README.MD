@@ -1,4 +1,31 @@
-# Cornell CS 5740 Project 2     
+# Cornell CS 5740 Project 3     
 
 Goal: produce a Question Answer (QA) System that can answer question according to a input passage.    
 Group member: Group Member: H. Yu, R. Sun, M. Lyu
+
+# QA system
+The data folder contains the orignial data set training.json, development.json and testing.json. The POS tags and NER tags were trained from Stanford CoreNLP API and were stored in json files named dev_coreNLP.json and test_coreNLP.json. When running the program, only these json files will be read from the data folder and the CoreNLP won't be sourced.
+
+Results of prediction answers were stored in result folder.
+
+
+folder trees should be like:
+proj3:
+	src
+		./proj3_p2_v1.1.py
+	data
+		training.json
+		development.json
+		testing.json
+		dev_coreNLP.json
+		test_coreNLP.json
+	result 
+		submission.csv
+
+Run:
+	python ./src/proj3_p2_v1.1.py
+
+
+Keep load_word.py in the same folder
+Run: 
+lstm_ptr.py
