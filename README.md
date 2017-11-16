@@ -2,4 +2,4 @@
 Cornell CS5740 Natural Language Process 
 
 Group Member: 
-Howell Yu, Roy Sun, Mengyao Lyu
+H. Yu, R. Sun, M. Lyu
